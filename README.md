@@ -2,7 +2,11 @@
 STM8 startovací toolchain
 ==============================
 
-* Toto je Startovací strom zdrojových kódů pro výuku mikroprocesorové techniky s kitem
+*ADC, PWM, dero,Hmustek?
+* adc pwm regulátor
+*  
+*   
+*     Toto je Startovací strom zdrojových kódů pro výuku mikroprocesorové techniky s kitem
   [NUCLEO-8S208RB](https://www.st.com/en/evaluation-tools/nucleo-8s208rb.html).
 * Strom je určen pro překladač [SDCC](http://sdcc.sourceforge.net/) nebo 
   [SDCC-gas](https://github.com/XaviDCR92/sdcc-gas).
