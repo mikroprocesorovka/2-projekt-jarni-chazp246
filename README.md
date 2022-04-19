@@ -2,8 +2,8 @@
 STM8 startovací toolchain
 ==============================
 
-*ADC, PWM, dero,Hmustek?
-* adc pwm regulátor
+*ADC, PWM, dero
+* adc pwm regulátor na serva
 *  
 *   
 *     Toto je Startovací strom zdrojových kódů pro výuku mikroprocesorové techniky s kitem
