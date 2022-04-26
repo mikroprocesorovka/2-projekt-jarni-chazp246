@@ -47,19 +47,20 @@ void setup(void)
 
 int main(void)
 {
-    uint32_t cum = 1000;
+    uint32_t cum = 1200;
     uint16_t analog;
 
     setup();
 
     while (1) {
         analog = ADC_get(ADC2_CHANNEL_3);
-        cum = adc * 5
+        if (cum < 1200){
+        cum = analog * 5 + 1200;
+        }
+        else{
+        cum = analog * 5;
+        }
         TIM2_SetCompare1(cum);
-
-
-     
-
     }
 }
 
