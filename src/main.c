@@ -54,7 +54,7 @@ int main(void)
 
     while (1) {
         analog = ADC_get(ADC2_CHANNEL_3);
-        if (cum < 1200){
+        if (analog * 5 < 1200){
         cum = analog * 5 + 1200;
         }
         else{
